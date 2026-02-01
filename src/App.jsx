@@ -14,7 +14,7 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
+      "Are you Sure?",
       "Really sure?",
       "Think again!",
       "Last chance!",
@@ -31,7 +31,7 @@ export default function Page() {
       "You're breaking my heart ;(",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Plsss? :( You will be loosing one good friend",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -94,7 +94,7 @@ const Footer = () => {
     >
       Made with{" "}
       <span role="img" aria-label="heart">
-        ❤️
+        🤝
       </span>
     </a>
   );
